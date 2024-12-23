@@ -1,0 +1,5 @@
+﻿CREATE TABLE Users (
+    Id INT PRIMARY KEY IDENTITY(1,1),  -- Primary Key with Auto Increment
+    Username NVARCHAR(100) NOT NULL,   -- Username column with max length 100
+    Password NVARCHAR(100) NOT NULL    -- Password column with max length 100
+);
